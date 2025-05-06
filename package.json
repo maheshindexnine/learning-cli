@@ -7,14 +7,20 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "file-writer": "./index.js"
+    "monster-cli": "./menu-cli.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "boxen": "^8.0.1",
     "chalk": "^4.1.2",
-    "commander": "^13.1.0"
+    "commander": "^13.1.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.6.0",
+    "install": "^0.13.0",
+    "npm": "^11.3.0",
+    "ora": "^8.2.0"
   }
 }
